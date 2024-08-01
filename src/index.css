@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.aside_list {}
+
+.aside_items {
+    position: relative;
+}
+
+.aside_items:hover:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0rem;
+    width: 5rem;
+    height: .1rem;
+    background: #000;
+}
+
+.active-filter {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+body{
+    background: #FFFBED;
+}
+.product-card-desc{
+    line-height: 40px;
+}
